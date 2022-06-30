@@ -14,7 +14,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>PowerShell module for TrueNAS</description>
     <releaseNotes>@version@ release</releaseNotes>
-    <copyright>Copyright 2021 Condoamanti</copyright>
+    <copyright>Copyright 2022 Condoamanti</copyright>
     <tags>powershell psmodule TrueNAS</tags>
 <!--
     <dependencies>
