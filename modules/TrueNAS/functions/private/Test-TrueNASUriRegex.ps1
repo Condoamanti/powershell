@@ -1,5 +1,4 @@
-function Test-TrueNASUriRegex
-{
+function Test-TrueNASUriRegex {
 <#
     .SYNOPSIS
 

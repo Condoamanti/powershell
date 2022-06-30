@@ -1,5 +1,4 @@
-function Invoke-TrueNasRestMethod
-{
+function Invoke-TrueNasRestMethod {
 <#
     .SYNOPSIS
 
