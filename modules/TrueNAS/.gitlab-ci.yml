@@ -1,0 +1,16 @@
+# .gitlab-ci.yml
+stages:
+  - build
+
+variables:
+  EXECUTE_POWERSHELL_TESTS: "false"
+  MAJOR_PACKAGE_VERSION: "1"
+  MINOR_PACKAGE_VERSION: "1"
+build:powershell: 
+  stage: build
+  trigger:
+    include:
+      - project: "devops/continuous-integration/powershell"
+        ref: "master"
+        file: "gitlab-pipeline.yml"
+    strategy: depend

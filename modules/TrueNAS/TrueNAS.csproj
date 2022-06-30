@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <NuspecFile>TrueNAS.nuspec</NuspecFile>
+    <NoBuild>true</NoBuild>
+    <NoRestore>true</NoRestore>
+    <NoWarn>NU5111,NU5110,NU5119</NoWarn>
+  </PropertyGroup>
+</Project>

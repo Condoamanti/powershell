@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>TrueNAS</id>
+    <version>@version@</version>
+    <title>TrueNAS</title>
+    <authors>Condoamanti</authors>
+    <owners>Condoamanti</owners>
+<!--
+    <licenseUrl>https://www.website.com/terms</licenseUrl>
+    <projectUrl>https://www.website.com/project</projectUrl>
+    <iconUrl>https://www.website.com/logo.png</iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PowerShell module for TrueNAS</description>
+    <releaseNotes>@version@ release</releaseNotes>
+    <copyright>Copyright 2021 Condoamanti</copyright>
+    <tags>powershell psmodule TrueNAS</tags>
+<!--
+    <dependencies>
+      <dependency id="bootstrap" version="4.1.1" />
+      <dependency id="FontAwesome" version="4.7.0" />
+    </dependencies>
+-->
+    <summary>A summary of your package</summary>
+  </metadata>
+  <files>
+    <file src="README.md" />
+    <file src="TrueNAS.psd1" />
+    <file src="TrueNAS.psm1" />
+    <file src="TrueNAS.nuspec" />
+    <file src="content\**" target="content" />
+    <file src="private\**" target="private" />
+    <file src="public\**" target="public" />
+  </files>
+</package>
